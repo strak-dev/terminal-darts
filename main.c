@@ -51,4 +51,6 @@ int main(void) {
     tests_passed++;
   }
 
+  printf("\ntests passed");
+  return (tests_passed > 0) ? 0 : 1;
 }
