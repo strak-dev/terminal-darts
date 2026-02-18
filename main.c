@@ -23,6 +23,8 @@ void render(SetRecord *records, int count) {
   printf("=== DART BOARD ===\n");
   printf("Jordan: %d | Nick: %d | Total Games: %d\n", jordan_wins, nick_wins, count);
   printf("=======================================\n\n");
+  
+  printf("%-12s %-10s %-8s %-8s %-8s %s\n", "DATE", "WINNER", "SET 1", "SET 2", "SET 3", "NOTES");
 
   for (int i = 0; i < count; i++) {
     printf("%s | %s won | sets: %s %s %s\n",
