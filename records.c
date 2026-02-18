@@ -35,7 +35,7 @@ void load_records(SetRecord *buf, int *count, int max) {
 
   // same as above, expect we will read, binary and not error if the file is empty
   FILE *f = fopen(RECORDS_FILE, "rb");
-  if (f == null) {
+  if (f == NULL) {
     return;
   }
 
